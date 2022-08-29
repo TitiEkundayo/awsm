@@ -8,10 +8,14 @@
 	background-color: #121212 !important;
 }
 
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1024px) and (orientation: landscape) {
-	// second column of the footer (form column)
-	.footerFormWidth {
-		max-width: 25%;
-	}
+// // Extra large devices (large desktops, 1200px and up)
+// @media (min-width: 1024px) and (orientation: landscape) {
+// 	// second column of the footer (form column)
+// 	.footerFormWidth {
+// 		max-width: 25%;
+// 	}
+// }
+
+.subscribeSectionForm {
+	max-width: 40%;
 }

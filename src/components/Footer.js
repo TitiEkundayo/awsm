@@ -4,9 +4,9 @@ import { SubscribeForm } from "./Forms";
 import SocialMediaIcons from "./SocialMediaIcons";
 const Footer = () => {
 	return (
-		<footer className="bg-footer p-3">
+		<footer className="bg-footer p-5">
 			<div className="row align-items-baseline d-flex justify-content-around">
-				<div className="col-md-6 ms-3 m-3 col-sm-12 footerSignatureWidth">
+				<div className="col-md-6 col-sm-12 footerSignatureWidth">
 					<p>
 						“The AbegWhoSendMe journey proves that desperation breeds
 						innovation, and The Power of Broke breaks it down for us with
@@ -33,12 +33,14 @@ const Footer = () => {
 					</div>
 				</div>
 
-				<div className="col-md-4 col-sm-12 subscribeColumn">
+				<div className="col-md-4 col-sm-12">
 					<h5 className="text-white alignElements">
 						Subscribe to our News Letter
 					</h5>
 
-					<SubscribeForm />
+					<div className="footerFormWidth">
+						<SubscribeForm />
+					</div>
 					<div className="mt-3 ps-0 footerNavItems">
 						<SocialMediaIcons />
 					</div>

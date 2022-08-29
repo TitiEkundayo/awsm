@@ -103,12 +103,12 @@
 	// FOOTER STYLES
 	// first column of the footer
 	.footerSignatureWidth {
-		max-width: 35%;
+		max-width: 35% !important;
 	}
 
 	// second column of the footer (form column)
 	.footerFormWidth {
-		max-width: 75%;
+		max-width: 90% !important;
 	}
 
 	.subscribeBtn {

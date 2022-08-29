@@ -60,11 +60,11 @@ const Homepage = () => {
 				{/* Subscribe Form Section Starts */}
 				{/* give this section a width in the media query */}
 				<section className="mt-5 pt-3 mb-5 pb-5">
-					<h2 className="text-center mt-5 pt-3 yellowText ">
+					<h2 className="mt-5 pt-3 text-center yellowText">
 						Subscribe to Our Newsletter
 					</h2>
 
-					<div className="subscribeColumn">
+					<div className="text-center subscribeSectionForm mx-auto">
 						<SubscribeForm />
 					</div>
 				</section>
