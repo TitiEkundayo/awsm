@@ -1,0 +1,47 @@
+@use "./colors" as *;
+
+@mixin H1Font {
+	font-family: poppins;
+	font-size: 3.052rem;
+}
+
+@mixin H2Font {
+	font-family: poppins;
+	font-size: 2.441rem !important;
+}
+
+@mixin H3Font {
+	font-family: poppins;
+	font-size: 1.953rem;
+}
+
+@mixin H4Font {
+	font-family: poppins;
+	font-size: 1.563rem;
+}
+
+@mixin H5Font {
+	font-family: poppins;
+	font-size: 1.25em;
+	line-height: 1.75rem;
+}
+
+@mixin H6Font {
+	font-family: poppins;
+	font-size: 1rem;
+	line-height: 1.75rem;
+}
+
+@mixin pFont {
+	font-family: "Open Sans";
+	font-size: 0.9rem;
+	color: $bodyTextColor;
+	line-height: 1.75rem; //multiples of 1.5 the font-size
+	letter-spacing: 0.02rem; //multiples of 1.5 the font-size
+}
+
+@mixin mutedFont {
+	font-family: "Open Sans";
+	font-size: 0.812em;
+	// color: $mutedTextColor;
+}

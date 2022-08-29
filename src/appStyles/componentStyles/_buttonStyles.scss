@@ -1,0 +1,31 @@
+@use "../colors" as *;
+// @use "../componentStyles/textStyles" as *;
+
+@mixin activeButton1 {
+	background: $buttonColor;
+	// color: $bodyTextColor;
+}
+
+@mixin activeButton2 {
+	background: $pryColor;
+	border: 2px solid #e9d402 !important;
+}
+
+.activeButton1 {
+	@include activeButton1;
+	// min-width: 35%;
+}
+
+.activeButton1:hover {
+	@include activeButton2;
+}
+
+.activeButton2 {
+	@include activeButton2;
+	// min-width: 35%;
+}
+
+.activeButton2:hover {
+	@include activeButton1;
+	border: none !important;
+}

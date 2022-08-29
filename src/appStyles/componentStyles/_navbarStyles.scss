@@ -1,0 +1,24 @@
+@use "../colors" as *;
+@use "../fonts" as *;
+
+.offcanvas {
+	background-color: $pryColorVariant !important;
+}
+
+@media screen and (max-width: 2000px) {
+	.offcanvas {
+		width: auto !important;
+	}
+}
+
+// @media screen and (min-width: 768px) {
+// 	.offcanvas {
+// 		max-width: 50%;
+// 	}
+// }
+
+// @media screen and (min-width: 1200px) {
+// 	.offcanvas {
+// 		max-width: 75%;
+// 	}
+// }

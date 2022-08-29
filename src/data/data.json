@@ -1,0 +1,25 @@
+{
+	"homepageCardDetails": [
+		{
+			"id": 1,
+			"img": "../images/homeImgs/bookImg.png",
+			"cardTitle": "Book",
+			"cardText": "Gunilla Dahlberg dur.dseww Agneta Gustavsson salig.sa Tritrera tegt.",
+			"Link": "Read More"
+		},
+		{
+			"id": 2,
+			"img": "../images/homeImgs/joinCreatorsImg.png",
+			"cardTitle": "Join The Creators",
+			"cardText": "Gunilla Dahlberg dur.dseww Agneta Gustavsson salig.sa Tritrera tegt.",
+			"Link": "Read More"
+		},
+		{
+			"id": 3,
+			"img": "../../images/homeImgs/podcastImg.png",
+			"cardTitle": "Podcast",
+			"cardText": "Gunilla Dahlberg dur.dseww Agneta Gustavsson salig.sa Tritrera tegt.",
+			"Link": "Read More"
+		}
+	]
+}

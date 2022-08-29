@@ -1,0 +1,20 @@
+$pryColor: #050301;
+$pryColorVariant: #121212;
+$secColor: #e9d402de;
+$buttonColor: linear-gradient(
+	90deg,
+	rgba(211, 197, 50, 0.75) 0%,
+	rgba(246, 119, 22, 0.75) 100%
+);
+
+// text colors
+$bodyTextColor: rgba(255, 255, 255, 0.7);
+$mutedTextColor: rgba(255, 255, 255, 0.5);
+// $warningTextColor: #e9d402de;
+$errorTextColor: red;
+$successTextColor: green;
+
+// text color in card
+.inlineTextColor {
+	color: $secColor;
+}

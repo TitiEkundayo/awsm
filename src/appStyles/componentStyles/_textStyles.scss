@@ -1,0 +1,49 @@
+@use "../fonts" as *;
+@use "../colors" as *;
+
+h1 {
+	@include H1Font;
+}
+h2 {
+	@include H2Font;
+}
+h3 {
+	@include H3Font;
+}
+
+h4 {
+	@include H4Font;
+}
+h5 {
+	@include H5Font;
+}
+h6 {
+	@include H6Font;
+}
+
+p {
+	@include pFont;
+}
+
+.whiteText {
+	color: $bodyTextColor;
+}
+
+.yellowText {
+	color: $secColor;
+}
+
+.mutedTexts {
+	@include mutedFont;
+}
+
+.mutedText {
+	@include mutedFont;
+	color: $secColor;
+	line-height: normal;
+	opacity: 0.85;
+}
+
+.removeLineHeight {
+	line-height: 0;
+}

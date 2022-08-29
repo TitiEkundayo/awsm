@@ -1,0 +1,126 @@
+@use "../colors" as *;
+@use "../fonts" as *;
+
+.bg-footer {
+	background-color: $pryColorVariant;
+}
+
+.footerCEOText {
+	@include mutedFont;
+	color: $secColor;
+	line-height: normal;
+}
+
+// @media only screen and (max-width: 600px) {
+// 	// FOOTER STYLES
+// 	.footerSignatureWidth {
+// 		display: flex;
+// 		flex-direction: column;
+// 		flex-shrink: 1;
+// 	}
+// 	.subscribeBtn {
+// 		max-width: 40%;
+// 	}
+
+// 	.alignElements {
+// 		text-align: center;
+// 	}
+
+// 	.subscribeColumn {
+// 		margin-top: 15px;
+// 	}
+
+// 	.supportColumn {
+// 		margin-top: 40px;
+// 	}
+
+// 	.footerNavItems {
+// 		display: flex;
+// 		flex-direction: row;
+// 		justify-content: center;
+// 		flex-wrap: nowrap;
+// 	}
+
+// 	.footerNavItem {
+// 		// padding-left: 10px !important;
+// 		font-size: 0.812em;
+// 		padding-right: 15px !important;
+// 	}
+// }
+
+@media only screen and (max-width: 600px) {
+	// FOOTER STYLES
+	.footerSignatureWidth {
+		display: flex;
+		flex-direction: column;
+		flex-shrink: 1;
+	}
+	.subscribeBtn {
+		max-width: 40%;
+	}
+
+	.alignElements {
+		text-align: center;
+	}
+
+	.subscribeColumn {
+		margin-top: 15px;
+	}
+
+	.supportColumn {
+		margin-top: 40px;
+	}
+
+	.footerNavItems {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		flex-wrap: nowrap;
+	}
+
+	.footerNavItem {
+		// padding-left: 10px !important;
+		font-size: 0.812em;
+		padding-right: 15px !important;
+	}
+
+	// CARD STYLES
+	.wideCard {
+		max-width: 75%;
+	}
+
+	.wideCardImg {
+		min-width: 100%;
+	}
+
+	// .miniWideCard {
+	// 	width: auto;
+	// }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media only screen and (min-width: 1200px) {
+	// FOOTER STYLES
+	// first column of the footer
+	.footerSignatureWidth {
+		max-width: 35%;
+	}
+
+	// second column of the footer (form column)
+	.footerFormWidth {
+		max-width: 75%;
+	}
+
+	.subscribeBtn {
+		max-width: 40%;
+	}
+
+	// CARD STYLES
+	.wideCard {
+		max-width: 50%;
+	}
+
+	.miniWideCard {
+		max-width: 40%;
+	}
+}

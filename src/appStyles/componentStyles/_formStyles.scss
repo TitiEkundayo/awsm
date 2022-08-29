@@ -1,0 +1,17 @@
+.formField {
+	background-color: rgba(255, 255, 255, 0.09) !important;
+	border: none !important;
+	border-radius: 5px !important;
+}
+
+.formBg {
+	background-color: #121212 !important;
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1024px) and (orientation: landscape) {
+	// second column of the footer (form column)
+	.footerFormWidth {
+		max-width: 25%;
+	}
+}
