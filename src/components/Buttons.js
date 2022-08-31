@@ -31,7 +31,9 @@ export const SubscribeBtn = () => {
 // book page buttons
 export const WatchThrillerBtn = () => {
 	return (
-		<button className="activeButton1 btn text-white">Watch Thriller</button>
+		<button className="activeButton1 btn text-white me-3">
+			Watch Thriller
+		</button>
 	);
 };
 
@@ -54,7 +56,9 @@ export const PlayBtn = () => {
 };
 
 export const DownloadBtn = () => {
-	return <button className="btn activeButton2 text-white-50">Download</button>;
+	return (
+		<button className="btn activeButton2 text-white-50 ms-3">Download</button>
+	);
 };
 
 // community page buttons

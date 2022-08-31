@@ -1,20 +1,20 @@
 import homeHeroImg from "../images/heroImages/homeHeroImg.png";
 import { GuestTopMenu, MenuNavbar } from "../components/Navbar";
 import { SignUpBtn } from "../components/Buttons";
-import data from "../data/data.json";
+import homepageData from "../data/homepageData.json";
 import { HomePageCards } from "../components/Cards";
 import { SubscribeForm } from "../components/Forms";
 // import joinCreators from "";
 
-const Homepage = () => {
+const HomePage = () => {
 	return (
 		<div>
 			{/* Hero Section Starts */}
 			<header style={heroImg} className="text-white">
 				<GuestTopMenu />
 				<MenuNavbar />
-				<div className="text-center">
-					<h1 className="mt-5">Join Us</h1>
+				<div className="text-center mt-5 pt-5">
+					<h1 className="">Join Us</h1>
 					<SignUpBtn />
 				</div>
 			</header>
@@ -44,7 +44,7 @@ const Homepage = () => {
 				<section className="mt-5 pt-3">
 					<h2 className="text-center mt-5 pt-3 yellowText ">What We Offer</h2>
 					<div className="row ">
-						{data.homepageCardDetails.map((singleCardDetail) => {
+						{homepageData.homepageCardDetails.map((singleCardDetail) => {
 							return (
 								<div
 									className="col-lg-4 col-md-4 g-4 d-flex justify-content-evenly"
@@ -84,4 +84,4 @@ const heroImg = {
 	width: "100vw",
 };
 
-export default Homepage;
+export default HomePage;

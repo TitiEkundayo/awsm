@@ -1,0 +1,25 @@
+{
+	"podcastCardDetails": [
+		{
+			"id": 1,
+			"podcastImg": "../images/homeImgs/bookImg.png",
+			"podcastDescription": "Gunilla Dahlberg dur.dseww Agneta Gustavsson salig.sa Tritrera tegt.",
+			"podcastPresenter": "Basil Hamilton",
+			"podcastLink": "#"
+		},
+		{
+			"id": 2,
+			"podcastImg": "../images/homeImgs/bookImg.png",
+			"podcastDescription": "Gunilla Dahlberg dur.dseww Agneta Gustavsson salig.sa Tritrera tegt.",
+			"podcastPresenter": "Dorcas Lawal",
+			"podcastLink": "#"
+		},
+		{
+			"id": 3,
+			"podcastImg": "../images/homeImgs/bookImg.png",
+			"podcastDescription": "Gunilla Dahlberg dur.dseww Agneta Gustavsson salig.sa Tritrera tegt.",
+			"podcastPresenter": "Luis Shaman",
+			"podcastLink": "#"
+		}
+	]
+}

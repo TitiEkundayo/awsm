@@ -1,0 +1,25 @@
+{
+	"bookTestimonialCardDetails": [
+		{
+			"id": 1,
+			"testimonial": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro doloribus beatae repudiandae voluptates quibusdam, esse ducimus. Et dicta facere deserunt.",
+			"testifiersImg": "../images/homeImgs/bookImg.png",
+			"testifiersName": "Mercy Snow",
+			"testifiersOccupation": "Business Developer"
+		},
+		{
+			"id": 2,
+			"testimonial": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro doloribus beatae repudiandae voluptates quibusdam, esse ducimus. Et dicta facere deserunt.",
+			"testifiersImg": "../images/homeImgs/bookImg.png",
+			"testifiersName": "Bukola Adeyemi",
+			"testifiersOccupation": "Copywriter"
+		},
+		{
+			"id": 3,
+			"testimonial": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro doloribus beatae repudiandae voluptates quibusdam, esse ducimus. Et dicta facere deserunt.",
+			"testifiersImg": "../images/homeImgs/bookImg.png",
+			"testifiersName": "Adams Shaw",
+			"testifiersOccupation": "Software Developer"
+		}
+	]
+}

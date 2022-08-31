@@ -8,16 +8,8 @@
   box-sizing: border-box;
 }
 
-/* Hide scrollbar for IE, Edge and Firefox */
 body {
   background-color: #050301 !important;
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
-}
-
-/* Hide scrollbar for Chrome, Safari and Opera */
-body::-webkit-scrollbar {
-  display: none;
 }
 
 .activeButton1 {
@@ -146,7 +138,6 @@ p {
 }
 .formField {
   background-color: rgba(255, 255, 255, 0.09) !important;
-  padding: 50px;
   border: none !important;
   border-radius: 5px !important;
 }
@@ -168,6 +159,12 @@ p {
     width: auto !important;
   }
 }
+.borderDivider {
+  border-bottom: 1px solid whitesmoke;
+  padding-top: 0;
+  opacity: 0.5;
+}
+
 .bg-footer {
   background-color: #121212;
 }

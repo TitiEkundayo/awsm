@@ -22,44 +22,47 @@ export const HomePageCards = (props) => {
 	);
 };
 
-export const BookTestimonialCards = () => {
+export const BookTestimonialCards = (props) => {
+	const { testimonial, testifiersImg, testifiersName, testifiersOccupation } =
+		props;
 	return (
 		<div
-			className="card-body cardBody cardOutline px-2 py-2"
+			className="card-body cardBody cardOutline px-4 py-4"
 			style={{ width: "18rem" }}>
-			<p className="card-text">
-				Some quick example text to build on the card title and make up the bulk
-				of the card's content.{" "}
-			</p>
-			<div className="text-center">
-				<img src={imagesfile} className="circledImage" alt="testifier" />
-				<h5 className="yellowText mb-0">Titilayo Ekundayo</h5>
-				<p className="mutedText">Self-taught Instructor</p>
+			<p className="card-text text-center">{testimonial}</p>
+			<div className="text-center pt-3">
+				<img
+					src={testifiersImg}
+					className="circledImage mb-2"
+					alt="testifier"
+				/>
+				<h5 className="yellowText mb-0">{testifiersName}</h5>
+				<p className="mutedText">{testifiersOccupation}</p>
 			</div>
 		</div>
 	);
 };
 
-export const PodcastCard = () => {
+export const PodcastCard = (props) => {
+	const { podcastImg, podcastDescription, podcastPresenter } = props;
 	return (
 		<div className="card cardOutline wideCard">
 			<div className="row g-0">
 				<div className="col-md-5 col-sm-12">
 					<img
-						src={imagesfile}
+						src={podcastImg}
 						className="img-fluid rounded-start wideCardImg h-100 w-100"
 						alt="podcast"
 					/>
 				</div>
 
-				<div className="col-md-7 col-sm-12 cardBody text-center">
-					<div className="py-5 my-5">
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
-							dolor fuga facere!
-						</p>
-						<h5 className="yellowText mb-3">Titilayo Ekundayo</h5>
-						<div className="d-flex justify-content-center">
+				<div className="col-md-7 col-sm-12 cardBody">
+					{/* <div className="py-5 my-5 ms-5"> */}
+					<div className="py-5 centerCardContent ps-3">
+						<p>{podcastDescription}</p>
+						<h5 className="yellowText mb-3">{podcastPresenter}</h5>
+
+						<div className="d-flex">
 							<PlayBtn />
 							<DownloadBtn />
 						</div>
