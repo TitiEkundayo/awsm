@@ -6,7 +6,7 @@ import { SubscribeForm } from "../components/Forms";
 import { HomeHero } from "../components/Heros";
 // import joinCreators from "";
 
-const HomePage = () => {
+const Homepage = () => {
 	return (
 		<div>
 			{/* Hero Section Starts */}
@@ -68,4 +68,4 @@ const HomePage = () => {
 	);
 };
 
-export default HomePage;
+export default Homepage;
