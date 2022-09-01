@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { GuestTopMenu, MenuNavbar } from "./components/Navbar";
 import Footer from "./components/Footer";
-import HomePage from "./pages/HomePage";
+import HomePage from "./pages/Homepage";
 import BookPage from "./pages/BookPage";
 import CommunityPage from "./pages/CommunityPage";
 import DashboardPage from "./pages/DashboardPage";
