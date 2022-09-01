@@ -71,8 +71,8 @@ export const ReadMoreBtn = () => {
 };
 
 // dashboard page buttons
-export const UploadBtn = () => {
-	return <button className="btn activeButton1 text-white">Upload</button>;
+export const UpdateBtn = () => {
+	return <button className="btn activeButton1 text-white me-3">Update</button>;
 };
 
 export const EditBtn = () => {

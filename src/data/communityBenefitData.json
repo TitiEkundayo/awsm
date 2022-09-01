@@ -1,0 +1,23 @@
+{
+	"MembershipBenefitCardDetails": [
+		{
+			"id": 1,
+			"memberImg": "../images/homeImgs/bookImg.png",
+			"benefitTitle": "Basil Hamilton",
+			"benefitDescription": "Gunilla Dahlberg dur.dseww Agneta Gustavsson salig.sa Tritrera tegt."
+		},
+
+		{
+			"id": 2,
+			"memberImg": "../images/homeImgs/bookImg.png",
+			"benefitTitle": "Basil Hamilton",
+			"benefitDescription": "Gunilla Dahlberg dur.dseww Agneta Gustavsson salig.sa Tritrera tegt."
+		},
+		{
+			"id": 3,
+			"memberImg": "../images/homeImgs/bookImg.png",
+			"benefitTitle": "Basil Hamilton",
+			"benefitDescription": "Gunilla Dahlberg dur.dseww Agneta Gustavsson salig.sa Tritrera tegt."
+		}
+	]
+}

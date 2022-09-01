@@ -1,23 +1,16 @@
-import homeHeroImg from "../images/heroImages/homeHeroImg.png";
 import { GuestTopMenu, MenuNavbar } from "../components/Navbar";
 import { SignUpBtn } from "../components/Buttons";
 import homepageData from "../data/homepageData.json";
 import { HomePageCards } from "../components/Cards";
 import { SubscribeForm } from "../components/Forms";
+import { HomeHero } from "../components/Heros";
 // import joinCreators from "";
 
 const HomePage = () => {
 	return (
 		<div>
 			{/* Hero Section Starts */}
-			<header style={heroImg} className="text-white">
-				<GuestTopMenu />
-				<MenuNavbar />
-				<div className="text-center mt-5 pt-5">
-					<h1 className="">Join Us</h1>
-					<SignUpBtn />
-				</div>
-			</header>
+			<HomeHero />
 			{/* Hero Section Ends */}
 
 			{/* Other Sections Starts */}
@@ -73,15 +66,6 @@ const HomePage = () => {
 			{/* Other Sections Ends */}
 		</div>
 	);
-};
-
-const heroImg = {
-	backgroundImage: `url(${homeHeroImg})`,
-	backgroundSize: "cover",
-	backgroundRepeat: "no-repeat",
-	backgroundPosition: "center",
-	height: "100vh",
-	width: "100vw",
 };
 
 export default HomePage;

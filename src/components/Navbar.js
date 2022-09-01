@@ -20,10 +20,12 @@ export const GuestTopMenu = () => {
 
 export const LoggedInTopMenu = () => {
 	return (
-		<div className="p-3">
+		<div className="">
 			<div className="container-fluid d-flex align-items-center">
-				<img src={logo} width="80" alt="logo" />
-
+				{/* <img src={logo} width="80" alt="logo" /> */}
+				<Link to="/" className="navbar-brand">
+					<img src={logo} width="100px" className="logoStyle" alt="logo" />
+				</Link>
 				<ul className="ms-auto">
 					<li className="nav-item dropdown">
 						<a
@@ -87,7 +89,7 @@ export const MenuNavbar = () => {
 
 					<div
 						className="offcanvas offcanvas-start"
-						tabindex="-1"
+						tabIndex="-1"
 						id="offcanvasExample">
 						<div className="offcanvas-header">
 							<img
@@ -143,9 +145,12 @@ export const MenuNavbar = () => {
 										className="dropdown-menu bg-dark"
 										aria-labelledby="offcanvasNavbarDropdown">
 										<li>
-											<a className="dropdown-item text-white" href="#">
-												Action
-											</a>
+											<Link
+												to="/communitypage"
+												className="dropdown-item text-white"
+												href="#">
+												Community Benefit
+											</Link>
 										</li>
 										<li>
 											<a className="dropdown-item text-white" href="#">
@@ -253,7 +258,7 @@ export const MenuNavbar = () => {
 											className="bi bi-postcard mx-3"
 											viewBox="0 0 16 16">
 											<path
-												fill-rule="evenodd"
+												fillRule="evenodd"
 												d="M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2ZM1 4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4Zm7.5.5a.5.5 0 0 0-1 0v7a.5.5 0 0 0 1 0v-7ZM2 5.5a.5.5 0 0 1 .5-.5H6a.5.5 0 0 1 0 1H2.5a.5.5 0 0 1-.5-.5Zm0 2a.5.5 0 0 1 .5-.5H6a.5.5 0 0 1 0 1H2.5a.5.5 0 0 1-.5-.5Zm0 2a.5.5 0 0 1 .5-.5H6a.5.5 0 0 1 0 1H2.5a.5.5 0 0 1-.5-.5ZM10.5 5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3ZM13 8h-2V6h2v2Z"
 											/>
 										</svg>
@@ -278,6 +283,22 @@ export const MenuNavbar = () => {
 								</li>
 
 								<li className="nav-item">
+									<Link className="nav-link text-white" to="/dashboardpage">
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											width="16"
+											height="16"
+											fill="currentColor"
+											className="bi bi-person-rolodex mx-3"
+											viewBox="0 0 16 16">
+											<path d="M8 9.05a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z" />
+											<path d="M1 1a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h.5a.5.5 0 0 0 .5-.5.5.5 0 0 1 1 0 .5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5.5.5 0 0 1 1 0 .5.5 0 0 0 .5.5h.5a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H6.707L6 1.293A1 1 0 0 0 5.293 1H1Zm0 1h4.293L6 2.707A1 1 0 0 0 6.707 3H15v10h-.085a1.5 1.5 0 0 0-2.4-.63C11.885 11.223 10.554 10 8 10c-2.555 0-3.886 1.224-4.514 2.37a1.5 1.5 0 0 0-2.4.63H1V2Z" />
+										</svg>
+										Dashboard
+									</Link>
+								</li>
+
+								<li className="nav-item">
 									<a className="nav-link text-white" href="#">
 										<svg
 											xmlns="http://www.w3.org/2000/svg"
@@ -287,11 +308,11 @@ export const MenuNavbar = () => {
 											className="bi bi-box-arrow-in-right mx-3"
 											viewBox="0 0 16 16">
 											<path
-												fill-rule="evenodd"
+												fillRule="evenodd"
 												d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"
 											/>
 											<path
-												fill-rule="evenodd"
+												fillRule="evenodd"
 												d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"
 											/>
 										</svg>

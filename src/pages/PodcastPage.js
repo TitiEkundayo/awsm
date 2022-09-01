@@ -1,5 +1,4 @@
 import { GuestTopMenu, MenuNavbar } from "../components/Navbar";
-import podcastHeroImg from "../images/heroImages/podcastHeroImg.png";
 import podcastData from "../data/podcastData.json";
 import { PodcastCard } from "../components/Cards";
 import {
@@ -8,19 +7,12 @@ import {
 	SpotifyBtn,
 	YouTubeBtn,
 } from "../components/Buttons";
+import { PodcastHero } from "../components/Heros";
 
 const PodcastPage = () => {
 	return (
 		<>
-			<header>
-				{/* Hero Section Starts */}
-				<header style={heroImg} className="text-white">
-					<GuestTopMenu />
-					<MenuNavbar />
-				</header>
-				{/* Hero Section Ends */}
-			</header>
-
+			<PodcastHero />
 			{/* Welcome Letter Section Starts */}
 			<section className="container mb-5 pb-5">
 				<h2 className="text-center mt-5 pt-5 mb-4 yellowText ">
@@ -55,13 +47,14 @@ const PodcastPage = () => {
 					</svg> */}
 					<input
 						type="search"
-						className="form-control me-2 w-25 formField"
+						className="form-control w-25 formField"
 						placeholder="Search"
 						aria-label="Search"
 					/>
 				</form>
 
 				{/* remove these podcast buttons in the second column, there look redundant. place them inside the card */}
+				{/* <div className="container d-sm-flex justify-contetn"> */}
 				<div className="">
 					{podcastData.podcastCardDetails.map((singlePodcast) => {
 						return (
@@ -78,20 +71,12 @@ const PodcastPage = () => {
 						<YouTubeBtn />
 					</div> */}
 				</div>
+				{/* </div> */}
 			</section>
 
 			{/* Podcast List Section Ends */}
 		</>
 	);
-};
-
-const heroImg = {
-	backgroundImage: `url(${podcastHeroImg})`,
-	backgroundSize: "cover",
-	backgroundRepeat: "no-repeat",
-	backgroundPosition: "center",
-	height: "75vh",
-	width: "100vw",
 };
 
 export default PodcastPage;
