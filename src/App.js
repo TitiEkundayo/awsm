@@ -9,7 +9,7 @@ import PodcastPage from "./pages/PodcastPage";
 
 function App() {
 	return (
-		<BrowserRouter>
+		<>
 			{/* <GuestTopMenu />
 			<MenuNavbar /> */}
 			<Routes>
@@ -20,7 +20,7 @@ function App() {
 				<Route path="dashboardpage" element={<DashboardPage />} />
 			</Routes>
 			<Footer />
-		</BrowserRouter>
+		</>
 	);
 }
 
