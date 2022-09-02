@@ -168,7 +168,7 @@ export const MenuNavbar = () => {
 									</ul>
 								</li>
 
-								<li className="nav-item">
+								{/* <li className="nav-item">
 									<a className="nav-link text-white" href="#">
 										<svg
 											xmlns="http://www.w3.org/2000/svg"
@@ -182,7 +182,7 @@ export const MenuNavbar = () => {
 										</svg>
 										Resources
 									</a>
-								</li>
+								</li> */}
 
 								<li className="nav-item">
 									<Link to="/podcastpage" className="nav-link text-white">
@@ -199,7 +199,7 @@ export const MenuNavbar = () => {
 									</Link>
 								</li>
 
-								<li className="nav-item">
+								{/* <li className="nav-item">
 									<a className="nav-link text-white" href="#">
 										<svg
 											xmlns="http://www.w3.org/2000/svg"
@@ -212,7 +212,7 @@ export const MenuNavbar = () => {
 										</svg>
 										Consulting
 									</a>
-								</li>
+								</li> */}
 
 								<li className="nav-item">
 									<a className="nav-link text-white" href="#">
