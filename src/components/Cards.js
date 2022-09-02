@@ -167,42 +167,38 @@ export const EventCard = () => {
 	);
 };
 
-export const EventTestimonialCard = () => {
+export const EventTestimonialCard = (props) => {
+	const { benefitDescription, eventImg } = props;
 	return (
 		<div
 			className="card-body cardBody cardOutline px-2 pt-2 pb-4"
 			style={{ width: "18rem" }}>
-			<p className="card-text mt-3">
-				Some quick example text to build on the card title and make up the bulk
-				of the card's content.{" "}
-			</p>
+			<p className="card-text mt-3">{benefitDescription}</p>
 
 			<div className="d-flex justify-content-center">
-				<img src={imagesfile} className="memBenefitCard" alt="benefit" />
+				<img src={eventImg} className="memBenefitCard" alt="benefit" />
 			</div>
 		</div>
 	);
 };
 
-export const MemberProfileCard = () => {
+export const MemberProfileCard = (props) => {
+	const { membersName, membersOccupation, membersBio, membersImg } = props;
 	return (
-		<div className="card cardOutline miniWideCard">
+		<div className="card cardOutline">
 			<div className="row g-0 leftSideWideCard">
 				<div className="col-md-5 col-sm-12 mt-4 d-flex justify-content-center align-items-start">
 					<img
-						src={imagesfile}
+						src={membersImg}
 						className="img-fluid rounded-circle wideCardImg"
 						alt="podcast"
 					/>
 				</div>
 
 				<div className="col-md-7 col-sm-12 cardBody p-3 d-flex align-items-start flex-column">
-					<h4 className="card-text whiteText mt-3 mb-0">Teni Badmus</h4>
-					<h5 className="yellowText mt-0">Web Developer</h5>
-					<p className="whiteText mt-3">
-						Dosamma. Plagon anang. Suprarad lanera. Athleisure Sara Gustafsson.
-						Hår besor. Dock mysiv.
-					</p>
+					<h4 className="card-text whiteText mt-3 mb-0">{membersName}</h4>
+					<h5 className="yellowText mt-0">{membersOccupation}</h5>
+					<p className="whiteText mt-3">{membersBio}</p>
 					<h6 className="whiteText removeLineHeight mt-3">Ratings</h6>
 					<div className="d-flex">
 						<p className="mutedTexts me-2">7.5</p>

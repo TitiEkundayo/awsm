@@ -1,0 +1,19 @@
+{
+	"eventCardDetails": [
+		{
+			"id": 1,
+			"benefitDescription": "Gunilla Dahlberg dur.dseww Agneta Gustavsson salig.sa Tritrera tegt.",
+			"eventImg": "../images/homeImgs/bookImg.png"
+		},
+		{
+			"id": 2,
+			"benefitDescription": "Gunilla Dahlberg dur.dseww Agneta Gustavsson salig.sa Tritrera tegt.",
+			"eventImg": "../images/homeImgs/bookImg.png"
+		},
+		{
+			"id": 3,
+			"benefitDescription": "Gunilla Dahlberg dur.dseww Agneta Gustavsson salig.sa Tritrera tegt.",
+			"eventImg": "../images/homeImgs/bookImg.png"
+		}
+	]
+}

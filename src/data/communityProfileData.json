@@ -1,0 +1,25 @@
+{
+	"communityMemberCardDetails": [
+		{
+			"id": 1,
+			"membersName": "Mercy Snow",
+			"membersOccupation": "Business Developer",
+			"membersBio": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro doloribus beatae repudiandae voluptates quibusdam, esse ducimus. Et dicta facere deserunt.",
+			"membersImg": "../images/homeImgs/bookImg.png"
+		},
+		{
+			"id": 2,
+			"membersName": "Bukola Adeyemi",
+			"membersOccupation": "Copywriter",
+			"membersBio": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro doloribus beatae repudiandae voluptates quibusdam, esse ducimus. Et dicta facere deserunt.",
+			"membersImg": "../images/homeImgs/bookImg.png"
+		},
+		{
+			"id": 3,
+			"membersName": "Adams Shaw",
+			"membersOccupation": "Software Developer",
+			"membersBio": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro doloribus beatae repudiandae voluptates quibusdam, esse ducimus. Et dicta facere deserunt.",
+			"membersImg": "../images/homeImgs/bookImg.png"
+		}
+	]
+}

@@ -84,7 +84,7 @@ p {
 }
 
 .yellowText {
-  color: rgba(233, 212, 2, 0.8705882353);
+  color: rgba(233, 212, 2, 0.8705882353) !important;
 }
 
 .mutedTexts {

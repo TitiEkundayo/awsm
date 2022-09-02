@@ -199,8 +199,10 @@ export const MenuNavbar = () => {
 									</Link>
 								</li>
 
-								{/* <li className="nav-item">
-									<a className="nav-link text-white" href="#">
+								<li className="nav-item">
+									<Link
+										to="/communityprofilepage"
+										className="nav-link text-white">
 										<svg
 											xmlns="http://www.w3.org/2000/svg"
 											width="16"
@@ -210,9 +212,9 @@ export const MenuNavbar = () => {
 											viewBox="0 0 16 16">
 											<path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5z" />
 										</svg>
-										Consulting
-									</a>
-								</li> */}
+										Members Profile
+									</Link>
+								</li>
 
 								<li className="nav-item">
 									<a className="nav-link text-white" href="#">
@@ -230,7 +232,7 @@ export const MenuNavbar = () => {
 								</li>
 
 								<li className="nav-item">
-									<a className="nav-link text-white" href="#">
+									<Link to="/eventspage" className="nav-link text-white">
 										<svg
 											xmlns="http://www.w3.org/2000/svg"
 											width="16"
@@ -241,8 +243,8 @@ export const MenuNavbar = () => {
 											<path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z" />
 											<path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
 										</svg>
-										Event
-									</a>
+										Events
+									</Link>
 								</li>
 
 								<li className="nav-item">
@@ -295,6 +297,27 @@ export const MenuNavbar = () => {
 									</Link>
 								</li>
 
+								<li className="nav-item">
+									<a className="nav-link text-white" href="#">
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											width="16"
+											height="16"
+											fill="currentColor"
+											className="bi bi-box-arrow-in-right mx-3"
+											viewBox="0 0 16 16">
+											<path
+												fillRule="evenodd"
+												d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"
+											/>
+											<path
+												fillRule="evenodd"
+												d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"
+											/>
+										</svg>
+										Sign Up
+									</a>
+								</li>
 								<li className="nav-item">
 									<a className="nav-link text-white" href="#">
 										<svg
