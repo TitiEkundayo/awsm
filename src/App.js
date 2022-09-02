@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { GuestTopMenu, MenuNavbar } from "./components/Navbar";
 import Footer from "./components/Footer";
 import HomePage from "./pages/HomePage";
@@ -9,7 +9,7 @@ import PodcastPage from "./pages/PodcastPage";
 
 function App() {
 	return (
-		<>
+		<Router>
 			{/* <GuestTopMenu />
 			<MenuNavbar /> */}
 			<Routes>
@@ -20,7 +20,7 @@ function App() {
 				<Route path="dashboardpage" element={<DashboardPage />} />
 			</Routes>
 			<Footer />
-		</>
+		</Router>
 	);
 }
 

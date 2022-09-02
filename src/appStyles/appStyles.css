@@ -8,10 +8,6 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: #050301 !important;
-}
-
 /* Hide scrollbar for IE, Edge and Firefox */
 body {
   background-color: #050301 !important;
@@ -239,5 +235,4 @@ p {
   .miniWideCard {
     max-width: 40%;
   }
-}
-/*# sourceMappingURL=appStyles.css.map */
+}/*# sourceMappingURL=appStyles.css.map */

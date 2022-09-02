@@ -107,8 +107,7 @@ export const MenuNavbar = () => {
 									<Link
 										to="/bookpage"
 										className="nav-link active text-white"
-										aria-current="page"
-										href="#">
+										aria-current="page">
 										<svg
 											xmlns="http://www.w3.org/2000/svg"
 											width="16"
@@ -144,18 +143,19 @@ export const MenuNavbar = () => {
 									<ul
 										className="dropdown-menu bg-dark"
 										aria-labelledby="offcanvasNavbarDropdown">
-										<li>
+										{/* <li>
 											<Link
 												to="/communitypage"
-												className="dropdown-item text-white"
-												href="#">
-												Community Benefit
+												className="dropdown-item text-white">
+												Benefit
 											</Link>
-										</li>
+										</li> */}
 										<li>
-											<a className="dropdown-item text-white" href="#">
-												Another action
-											</a>
+											<Link
+												className="dropdown-item text-white"
+												to="/communitypage">
+												Benefits
+											</Link>
 										</li>
 										<li>
 											<hr className="dropdown-divider" />
@@ -185,10 +185,7 @@ export const MenuNavbar = () => {
 								</li>
 
 								<li className="nav-item">
-									<Link
-										to="/podcastpage"
-										className="nav-link text-white"
-										href="#">
+									<Link to="/podcastpage" className="nav-link text-white">
 										<svg
 											xmlns="http://www.w3.org/2000/svg"
 											width="16"
