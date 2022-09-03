@@ -90,7 +90,7 @@ const EventFAQs = () => {
 								xmlns="http://www.w3.org/2000/svg"
 								width="16"
 								height="16"
-								fillRule="currentColor"
+								fill="currentColor"
 								className="bi bi-chevron-down text-white opacity-75 ms-1"
 								viewBox="0 0 16 16">
 								<path
@@ -133,7 +133,7 @@ const EventFAQs = () => {
 								xmlns="http://www.w3.org/2000/svg"
 								width="16"
 								height="16"
-								fillRule="currentColor"
+								fill="currentColor"
 								className="bi bi-chevron-down text-white opacity-75 ms-1"
 								viewBox="0 0 16 16">
 								<path
@@ -176,7 +176,7 @@ const EventFAQs = () => {
 								xmlns="http://www.w3.org/2000/svg"
 								width="16"
 								height="16"
-								fillRule="currentColor"
+								fill="currentColor"
 								className="bi bi-chevron-down text-white opacity-75 ms-1"
 								viewBox="0 0 16 16">
 								<path
@@ -188,7 +188,7 @@ const EventFAQs = () => {
 					</h2>
 
 					<div
-						id="collapseOne"
+						id="collapseThree"
 						className="accordion-collapse collapse"
 						aria-labelledby="headingTwo"
 						data-bs-parent="#accordionExample">
